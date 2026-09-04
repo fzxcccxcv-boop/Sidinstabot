@@ -16,7 +16,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 PROXY_URL = os.getenv("PROXY_URL") # Optional: "http://user:pass@host:port"
 
 # Parse comma-separated admin usernames from Railway
-admins_env = os.getenv("BOT_ADMINS", "@0exzo,@maaz1_x",@_aneii_90_)
+admins_env = os.getenv("BOT_ADMINS", "@0exzo,@maaz1_x,@_aneii_90_")
 ENV_ADMINS = [u.strip().lower() for u in admins_env.split(",") if u.strip()]
 
 if not IG_USERNAME or not IG_PASSWORD:
