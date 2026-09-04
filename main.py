@@ -24,7 +24,7 @@ from telegram.ext import (
 # ==========================================
 # 1. ENVIRONMENT VARIABLES (set in Railway)
 # ==========================================
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("8961186063:AAEyiW_Gil_jS4CPwrL-kRljOa3CUSwDvY0")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 PROXY_URL = os.getenv("PROXY_URL", "")          # Optional
 DATA_DIR = "/app/data" if os.path.exists("/app/data") else "."
